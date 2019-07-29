@@ -38,13 +38,7 @@ class HomeController extends Controller
         //$user->delete();
         //$users = User::all();
         dd($user->cars());
-        /*
-                $users = User::where('id', 1)
-                    ->orderBy('name', 'desc')
-                    ->take(2)
-                    ->get();
-                dd($users->count());
-                */
+        $users = $user->cars;
         return view('test', ['variables' => $user]);
     }
 }
