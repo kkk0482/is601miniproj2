@@ -49,7 +49,7 @@ class HomeController extends Controller
         //dd($user->cars());
         //$users = $user->cars;
         //return view('test', ['variables' => $user]);
-        $user = User::find(15);
+        $user = User::find(10);
         //$user->delete();
         //$user = User::all();
         //$user = DB::table('cars')->get();
