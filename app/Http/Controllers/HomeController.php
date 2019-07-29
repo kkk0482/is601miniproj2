@@ -31,14 +31,32 @@ class HomeController extends Controller
         return view('home');
     }
 
+    public function about()
+    {
+        return view('about');
+    }
+    public function contact()
+    {
+        return view('contact');
+    }
+
     public function test()
     {
-        $user = Auth::user();
+        //$user = Auth::user();
         //$user = User::find(3);
         //$user->delete();
         //$users = User::all();
-        dd($user->cars());
+        //dd($user->cars());
+        //$users = $user->cars;
+        //return view('test', ['variables' => $user]);
+        $user = User::find(15);
+        //$user->delete();
+        //$user = User::all();
+        //$user = DB::table('cars')->get();
         $users = $user->cars;
-        return view('test', ['variables' => $user]);
+        //dd($users->cars());
+        //dd($user->count());
+
+        return view('test', ['variables' => $users]);
     }
 }
