@@ -67,7 +67,6 @@
                                     </form>
                                         <a class="dropdown-item" href="{{route('about')}}">about</a>
                                         <a class="dropdown-item" href="{{route('contact')}}">contact</a>
-                                        <a class="dropdown-item" href="{{route('test')}}">test</a>
 
                                 </div>
                             </li>
