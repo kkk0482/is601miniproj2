@@ -13,7 +13,7 @@ class LoginPageTest extends TestCase
      *
      * @return void
      */
-    public function testExample()
+    public function testLoginPageTest()
     {
         //$response = $this->get('/');
         $response = $this->get('/login');

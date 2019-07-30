@@ -14,7 +14,7 @@ class ContactPageTest extends TestCase
      *
      * @return void
      */
-    public function testExample()
+    public function testContactPageTest()
     {
         //$response = $this->get('/');
         $user = User::first();

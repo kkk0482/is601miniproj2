@@ -14,7 +14,7 @@ class UpdateUserTest extends TestCase
      *
      * @return void
      */
-    public function testExample()
+    public function testUpdateUserTest()
     {
         $user = User::find(36);
         $user->name = 'Steve Smith';

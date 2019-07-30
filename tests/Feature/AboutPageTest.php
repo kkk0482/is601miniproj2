@@ -14,7 +14,7 @@ class AboutPageTest extends TestCase
      *
      * @return void
      */
-    public function testExample()
+    public function testAboutPageTest()
     //public function testAbout()
     {
         //$response = $this->get('/');

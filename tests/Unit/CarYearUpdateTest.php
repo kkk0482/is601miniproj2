@@ -14,7 +14,7 @@ class CarYearUpdateTest extends TestCase
      *
      * @return void
      */
-    public function testExample()
+    public function testCarYearUpdateTest()
     {
         //$this->assertTrue(true);
         $car = Cars::inRandomOrder()->first();

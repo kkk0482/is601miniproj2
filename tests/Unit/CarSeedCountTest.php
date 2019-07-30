@@ -14,7 +14,7 @@ class CarSeedCountTest extends TestCase
      *
      * @return void
      */
-    public function testExample()
+    public function testCarSeedCountTest()
     {
         //$this->assertTrue(true);
         $cars = Cars::All();

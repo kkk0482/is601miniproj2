@@ -14,7 +14,7 @@ class UserSeedCountTest extends TestCase
      *
      * @return void
      */
-    public function testExample()
+    public function testUserSeedCountTest()
     {
         //$this->assertTrue(true);
         $users = User::All();

@@ -16,7 +16,7 @@ class DeleteCarRecordTest extends TestCase
      * @return void
      */
     use DatabaseTransactions;
-    public function testExample()
+    public function testDeleteCarRecordTest()
     {
         //$this->assertTrue(true);
         $car = Cars::inRandomOrder()->first();

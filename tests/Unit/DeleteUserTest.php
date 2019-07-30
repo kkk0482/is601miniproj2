@@ -15,7 +15,7 @@ class DeleteUserTest extends TestCase
      *
      * @return void
      */
-    public function testExample()
+    public function testDeleteUserTest()
     {
         //$this->assertTrue(true);
         $user = User::inRandomOrder()->first();

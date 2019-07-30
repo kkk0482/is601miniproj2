@@ -14,7 +14,7 @@ class CarYearIntTest extends TestCase
      *
      * @return void
      */
-    public function testExample()
+    public function testCarYearIntTest()
     {
         //$this->assertTrue(true);
         $car = Cars::find(30);

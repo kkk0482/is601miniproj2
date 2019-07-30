@@ -14,7 +14,7 @@ class CarMakeTest extends TestCase
      *
      * @return void
      */
-    public function testExample()
+    public function testCarMakeTest()
     {
         //$this->assertTrue(true);
         $car=Cars::InRandomOrder()->first();

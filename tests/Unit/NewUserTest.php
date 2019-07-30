@@ -18,7 +18,7 @@ class NewUserTest extends TestCase
      * Testing fake user and database reset after making user
      */
     use DatabaseTransactions;
-    public function testExample()
+    public function testNewUserTest()
     {
         $user = new User();
         $user->name = 'Nobody';

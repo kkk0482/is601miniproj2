@@ -17,7 +17,7 @@ class CreateNewCarTest extends TestCase
      * @return void
      */
     use DatabaseTransactions;
-    public function testExample()
+    public function testCreateNewCarTest()
     {
         //$this->assertTrue(true);
         $cars = factory(User::class, 1)
